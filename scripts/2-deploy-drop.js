@@ -10,7 +10,7 @@ import { readFileSync } from "fs";
       // A description for the collection.
       description: "A DAO for job seekers.",
       // The image that will be held on our NFT! The fun part :).
-      // image: readFileSync("scripts/assets/image.jpg"),
+      image: readFileSync("scripts/assets/image.jpg"),
       // We need to pass in the address of the person who will be receiving the proceeds from sales of nfts in the contract.
       // We're planning on not charging people for the drop, so we'll pass in the 0x0 address
       // you can set this to your own wallet address if you want to charge for the drop.
